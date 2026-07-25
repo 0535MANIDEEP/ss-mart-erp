@@ -7,10 +7,38 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Flutter
+.dart_tool/
+.packages
+build/
+*.iml
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Backend
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.cache
+*.dll
+*.exe
+
+# Database
+*.sqlite
+*.db
+
+# Environment
+.env
+.env.local
+.env.production
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Editor directories and files
 .vscode/*
@@ -23,3 +51,14 @@ dist-ssr
 *.sln
 *.sw?
 .vercel
+
+# Dependencies
+node_modules/
+packages/
+dist/
+dist-ssr
+*.local
+
+# Coverage
+coverage/
+*.cover
