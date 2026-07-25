@@ -1,0 +1,49 @@
+# Flutter
+.dart_tool/
+.packages
+build/
+*.iml
+.idea/
+.vscode/
+*.log
+
+# Backend
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.cache
+*.dll
+*.exe
+
+# Database
+*.sqlite
+*.db
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+packages/
+
+# Build
+dist/
+build/
+
+# Coverage
+coverage/
+*.cover
