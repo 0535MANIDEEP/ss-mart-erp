@@ -15,9 +15,15 @@
 
 ---
 
+> ⚠️ **STATUS: Architecture & API specification only — no runtime code yet.**  
+> This repository contains the system design, API contracts, and data models.  
+> Implementation repositories are tracked separately (see below).
+
+---
+
 ## What is SS MART?
 
-SS MART (Sai Sangameshwara Mart) is a full-featured retail ERP/POS system designed for Indian retail operations. It handles everything from billing and inventory to accounting, loyalty programs, and employee management — all while working offline-first so your shop never stops even without internet.
+SS MART (Sai Sangameshwara Mart) is a **designed** retail ERP/POS system for Indian retail operations. It is designed to handle everything from billing and inventory to accounting, loyalty programs, and employee management — all while working offline-first so your shop never stops even without internet.
 
 ## Architecture
 
@@ -49,7 +55,7 @@ SS MART (Sai Sangameshwara Mart) is a full-featured retail ERP/POS system design
 - **Conflict Resolution** — Smart merge strategies for concurrent edits
 - **Indian Retail Focus** — GST, HSN/SAC, B2B/B2C support
 
-## Modules
+## Modules (Designed)
 
 | Module | Description |
 |--------|-------------|
@@ -68,13 +74,17 @@ SS MART (Sai Sangameshwara Mart) is a full-featured retail ERP/POS system design
 | Admin/Permissions | Role-based access control |
 | Sync Engine | Offline-to-online data synchronization |
 
-## Repositories
+## Repositories (Planned)
 
-| Repo | Description | Tech |
-|------|-------------|------|
-| [ss-mart-erp](https://github.com/0535MANIDEEP/ss-mart-erp) | Architecture docs & system design | Documentation |
-| [ss-mart-erp-backend](https://github.com/0535MANIDEEP/ss-mart-erp-backend) | REST API server | .NET 8, EF Core, PostgreSQL |
-| [ss-mart-erp-mobile](https://github.com/0535MANIDEEP/ss-mart-erp-mobile) | Mobile & desktop client | Flutter, SQLite, Drift |
+The following repositories will contain the implementation. Currently they are tracked separately and may not yet contain code:
+
+| Repo | Description | Tech | Status |
+|------|-------------|------|--------|
+| [ss-mart-erp](https://github.com/0535MANIDEEP/ss-mart-erp) | Architecture docs & system design | Documentation | ✅ Design complete |
+| [ss-mart-erp-backend](https://github.com/0535MANIDEEP/ss-mart-erp-backend) | REST API server | .NET 8, EF Core, PostgreSQL | 🚧 Not started |
+| [ss-mart-erp-mobile](https://github.com/0535MANIDEEP/ss-mart-erp-mobile) | Mobile & desktop client | Flutter, SQLite, Drift | 🚧 Not started |
+
+> **Note:** Implementation repositories are not yet initialized. See `PROJECT_CHECKLIST.md` for current progress.
 
 ## Getting Started
 
